@@ -1,7 +1,9 @@
 Tomate2
 =======
 
-O `velho marcador da técnica Pomodoro <https://gitorious.org/tomate>`_ para Ubuntu com algumas melhorias...
+O `velho e bom marcador da técnica Pomodoro <https://gitorious.org/tomate>`_ para Ubuntu com algumas melhorias.
+
+Clique `aqui <http://pomodorotechnique.com/>`_ para saber mais sobre essa técnica.
 
 Instalação/Utilização
 ----------
