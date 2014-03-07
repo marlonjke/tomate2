@@ -1,7 +1,10 @@
 Tomate2
 =======
 
-O velho marcador da técnica Pomodoro com algumas melhorias...
-O original pode ser encontrado aqui:
-`Open Komodo Editor <http://www.openkomodo.com/>`_
-https://gitorious.org/tomate
+O `velho marcador da técnica Pomodoro <https://gitorious.org/tomate>`_ para Ubuntu com algumas melhorias...
+
+Instalação
+----------
+
+1 - baixe o repositório 
+2 - descompacte o arquivo
