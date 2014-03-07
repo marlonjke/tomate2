@@ -24,8 +24,7 @@ class Pomodoro:
     """ Classe principal que instancia o indicador do ubuntu...
     """
     def __init__(self):
-        self.directory = os.path.dirname(os.path.realpath(__file__))
-        + os.path.sep
+        self.directory = os.path.dirname(os.path.realpath(__file__)) + os.path.sep
         self.ind = appindicator.Indicator('tomate', 'tomate', appindicator.CATEGORY_APPLICATION_STATUS)
         self.ind.set_status(appindicator.STATUS_ACTIVE)
         self.ind.set_icon(self.directory + "idle.png")
@@ -86,8 +85,7 @@ class Pomodoro:
         if state == "idle":
             delta = time() - self.start_working_time
             if old_state == "ok":
-                self.inicio.get_child().
-                set_text("Bom! Você trabalhou durante %s." % self.format_time(delta))
+                self.inicio.get_child().set_text("Bom! Você trabalhou durante %s." % self.format_time(delta))
             elif old_state == "working":
                 self.inicio.get_child().set_text("Ruim! Você trabalhou por apenas %s." % self.format_time(delta))
         else:
