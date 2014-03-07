@@ -100,8 +100,7 @@ class Pomodoro:
         if self.state == "idle":
             pass
         else:
-            self.inicio.get_child().
-            set_text("Trabalhando por %s..." % self.format_time(delta))
+            self.inicio.get_child().set_text("Trabalhando por %s..." % self.format_time(delta))
             if self.state == "working":
                 if delta > self.tempo * 60:
                     self.set_state("ok")
